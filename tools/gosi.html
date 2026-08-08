@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>حاسبة التأمينات الاجتماعية — اشتراك الموظف وصاحب العمل</title>
+<meta name="description" content="احسب اشتراك التأمينات الاجتماعية الشهري على الموظف وصاحب العمل من الأجر الخاضع للاشتراك، مع شرح مكوّنات الاشتراك والحدود.">
+<link rel="canonical" href="https://mortb.online/tools/gosi">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#046a38">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="مُرتَّب">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:title" content="حاسبة التأمينات الاجتماعية — اشتراك الموظف وصاحب العمل">
+<meta property="og:description" content="احسب اشتراك التأمينات الاجتماعية الشهري على الموظف وصاحب العمل من الأجر الخاضع للاشتراك، مع شرح مكوّنات الاشتراك والحدود.">
+<meta property="og:url" content="https://mortb.online/tools/gosi">
+<meta property="og:image" content="https://mortb.online/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="مُرتَّب — أدوات وحاسبات مجانية">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="حاسبة التأمينات الاجتماعية — اشتراك الموظف وصاحب العمل">
+<meta name="twitter:description" content="احسب اشتراك التأمينات الاجتماعية الشهري على الموظف وصاحب العمل من الأجر الخاضع للاشتراك، مع شرح مكوّنات الاشتراك والحدود.">
+<meta name="twitter:image" content="https://mortb.online/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "حاسبة التأمينات — مُرتَّب", "description": "احسب اشتراك التأمينات الاجتماعية الشهري على الموظف وصاحب العمل من الأجر الخاضع للاشتراك، مع شرح مكوّنات الاشتراك والحدود.", "url": "https://mortb.online/tools/gosi", "applicationCategory": "UtilitiesApplication", "operatingSystem": "All", "browserRequirements": "يتطلب متصفحاً يدعم جافاسكربت", "inLanguage": "ar-SA", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "SAR"}, "publisher": {"@id": "https://mortb.online/#org"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "ar-SA", "mainEntity": [{"@type": "Question", "name": "كم نسبة استقطاع التأمينات من الراتب؟", "acceptedAnswer": {"@type": "Answer", "text": "تُحسب على الأجر الخاضع للاشتراك (الأساسي + بدل السكن) وتتكوّن من حصة فرع المعاشات وحصة ساند. النسب قابلة للتعديل في الحاسبة أعلاه لأنها تختلف بحسب تاريخ التحاقك بسوق العمل بعد التعديلات النظامية الأخيرة."}}, {"@type": "Question", "name": "هل يُخصم من راتب غير السعودي تأمينات؟", "acceptedAnswer": {"@type": "Answer", "text": "لا. غير السعوديين مسجّلون في فرع الأخطار المهنية فقط، وهو على صاحب العمل وحده، فلا يظهر استقطاع في رواتبهم."}}, {"@type": "Question", "name": "ما هو الأجر الخاضع للاشتراك؟", "acceptedAnswer": {"@type": "Answer", "text": "الراتب الأساسي مضافاً إليه بدل السكن، ولا تدخل فيه عادةً البدلات المتغيرة والعمولات وبدل العمل الإضافي. ويخضع لحد أدنى وحد أقصى شهري."}}, {"@type": "Question", "name": "ما هو ساند؟", "acceptedAnswer": {"@type": "Answer", "text": "نظام التأمين ضد التعطل عن العمل، يتشارك الموظف وصاحب العمل في اشتراكه، ويصرف تعويضاً شهرياً مؤقتاً للمشترك السعودي الذي يفقد وظيفته لأسباب خارجة عن إرادته."}}, {"@type": "Question", "name": "هل أستطيع استرداد اشتراكاتي إذا تركت العمل؟", "acceptedAnswer": {"@type": "Answer", "text": "لا تُسترد الاشتراكات كمبلغ نقدي بشكل عام، لأنها تموّل معاشك المستقبلي. ومن لم يكمل المدة المؤهلة للمعاش قد تُصرف له مكافأة بدل المعاش وفق شروط محددة."}}, {"@type": "Question", "name": "لماذا نسب الحاسبة قابلة للتعديل؟", "acceptedAnswer": {"@type": "Answer", "text": "لأن نسب الاشتراك خضعت لتعديلات تدريجية تختلف بحسب تاريخ الالتحاق بسوق العمل. اجعل النسبة مطابقة لما هو ظاهر في مسيّر راتبك لتحصل على نتيجة دقيقة."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://mortb.online/"}, {"@type": "ListItem", "position": 2, "name": "مالية وعمل", "item": "https://mortb.online/category/finance"}, {"@type": "ListItem", "position": 3, "name": "حاسبة التأمينات", "item": "https://mortb.online/tools/gosi"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<script src="/assets/common.js" defer></script><script src="/assets/hijri.js" defer></script><script src="/assets/tools.js" defer></script><script src="/assets/tools2.js" defer></script><script src="/assets/tools3.js" defer></script><script src="/assets/init.js" defer></script><header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="/" aria-label="مُرتَّب — الصفحة الرئيسية">
+      <span class="logo-mark" aria-hidden="true">م</span>
+      <span class="logo-text">مُرتَّب</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainnav"
+            aria-label="فتح القائمة"><span></span><span></span><span></span></button>
+    <nav id="mainnav" class="main-nav" aria-label="التصنيفات الرئيسية">
+      <a href="/category/date"><span aria-hidden="true">📅</span> تاريخ وعدادات</a><a href="/category/islamic"><span aria-hidden="true">🌙</span> إسلامية</a><a href="/category/health"><span aria-hidden="true">💚</span> صحية</a><a href="/category/finance" class="on"><span aria-hidden="true">💰</span> مالية وعمل</a><a href="/category/national"><span aria-hidden="true">🇸🇦</span> وطنية</a><a href="/category/fun"><span aria-hidden="true">🎮</span> ترفيهية</a>
+      <a href="/tools"><span aria-hidden="true">🧰</span> كل الأدوات</a>
+      <a href="/blog"><span aria-hidden="true">📝</span> المقالات</a>
+    </nav>
+  </div>
+</header>
+<nav class="crumbs wrap" aria-label="مسار التنقل"><ol><li><a href="/">الرئيسية</a></li><li><a href="/category/finance">مالية وعمل</a></li><li><span aria-current="page">حاسبة التأمينات</span></li></ol></nav>
+<main id="main">
+<div class="wrap">
+  <div class="hero">
+    <h1><span aria-hidden="true">🛡️</span> حاسبة التأمينات الاجتماعية</h1>
+    <p class="sub">احسب قيمة الاستقطاع الشهري من راتبك وحصة صاحب العمل، مع إمكانية تعديل النسب لتطابق حالتك بالضبط.</p>
+  </div>
+
+  <div class="tool" data-tool="gosi">
+    <div class="row">
+      <div class="field"><label for="gs-basic">الراتب الأساسي</label>
+        <input type="number" id="gs-basic" min="0" step="any" value="8000" inputmode="decimal"></div>
+      <div class="field"><label for="gs-housing">بدل السكن</label>
+        <input type="number" id="gs-housing" min="0" step="any" value="2000" inputmode="decimal">
+        <p class="hint">الأجر الخاضع للاشتراك = الأساسي + بدل السكن.</p></div>
+      <div class="field"><label for="gs-nat">الفئة</label>
+        <select id="gs-nat">
+          <option value="saudi">سعودي / سعودية</option>
+          <option value="expat">غير سعودي</option>
+        </select></div>
+    </div>
+    <div class="row" id="gs-rates">
+      <div class="field"><label for="gs-emp">نسبة الموظف % (المعاشات)</label>
+        <input type="number" id="gs-emp" min="0" max="30" step="0.25" value="9" inputmode="decimal"></div>
+      <div class="field"><label for="gs-comp">نسبة صاحب العمل % (المعاشات)</label>
+        <input type="number" id="gs-comp" min="0" max="30" step="0.25" value="9" inputmode="decimal"></div>
+      <div class="field"><label for="gs-saned">نسبة ساند % (لكل طرف)</label>
+        <input type="number" id="gs-saned" min="0" max="10" step="0.05" value="0.75" inputmode="decimal"></div>
+    </div>
+    <div class="btn-row"><button class="btn" type="button" id="gs-go">احسب الاشتراك</button></div>
+
+    <div class="result hide" id="gs-out" role="status" aria-live="polite">
+      <p class="lbl">الاستقطاع الشهري من راتبك</p>
+      <p class="big" id="gs-big">—</p>
+      <p class="lbl" id="gs-sub">—</p>
+    </div>
+    <div class="stat-row hide" id="gs-stats">
+      <div class="stat"><b id="gs-base">—</b><span>الأجر الخاضع</span></div>
+      <div class="stat"><b id="gs-e">—</b><span>حصة الموظف</span></div>
+      <div class="stat"><b id="gs-c">—</b><span>حصة صاحب العمل</span></div>
+      <div class="stat"><b id="gs-net">—</b><span>الصافي بعد الاستقطاع</span></div>
+    </div>
+    <div class="hide" id="gs-detail"><div class="note info" id="gs-steps"></div></div>
+  </div>
+
+<div class="ad-slot" aria-hidden="true"></div>
+
+<section class="block">
+  <h2>مكوّنات اشتراك التأمينات</h2>
+
+  <p>لا يوجد «اشتراك واحد» بل عدة فروع لكل منها نسبة وجهة تتحمّلها:</p>
+  <div class="tbl-wrap"><table class="data">
+    <thead><tr><th>الفرع</th><th>على من؟</th><th>الغرض</th></tr></thead>
+    <tbody>
+      <tr><td>فرع المعاشات (الأخطار)</td><td>الموظف وصاحب العمل معاً</td><td>معاش التقاعد والعجز والوفاة</td></tr>
+      <tr><td>الأخطار المهنية</td><td>صاحب العمل وحده</td><td>إصابات العمل والأمراض المهنية</td></tr>
+      <tr><td>ساند (التأمين ضد التعطل)</td><td>الموظف وصاحب العمل معاً</td><td>تعويض شهري مؤقت عند فقدان الوظيفة</td></tr>
+    </tbody>
+  </table></div>
+  <p>الموظفون <strong>غير السعوديين</strong> لا يخضعون لفرع المعاشات ولا لساند، ويقتصر التسجيل عليهم
+  في فرع <strong>الأخطار المهنية</strong> الذي يتحمّله صاحب العمل وحده — ولهذا لا يظهر أي استقطاع
+  للتأمينات في رواتبهم.</p>
+</section><section class="block">
+  <h2>الأجر الخاضع للاشتراك</h2>
+
+  <p>لا يُحسب الاشتراك على إجمالي ما تستلمه، بل على <strong>الأجر الخاضع للاشتراك</strong>، وهو عادةً:</p>
+  <div class="note"><strong>الأجر الخاضع = الراتب الأساسي + بدل السكن</strong> (أو ما يعادله من سكن عيني)</div>
+  <p>ولا تدخل فيه عادةً البدلات المتغيرة كبدل النقل المتغيّر أو العمولات أو بدل العمل الإضافي. كما يخضع
+  الأجر لحد أدنى وحد أقصى شهري، فلا يُحسب الاشتراك على ما يزيد عن السقف المحدد نظاماً مهما ارتفع الراتب.</p>
+  <div class="note"><strong>مهم:</strong> شهدت أنظمة التأمينات في المملكة تعديلات تشمل رفعاً تدريجياً
+  لنسب الاشتراك على <strong>الملتحقين الجدد</strong> بسوق العمل على مدى عدة سنوات، مع إبقاء النسب
+  السابقة على فئات من المشتركين الحاليين. لهذا جعلنا النسب في الحاسبة <strong>قابلة للتعديل</strong> —
+  انسخ النسبة الظاهرة في مسيّر راتبك أو في حسابك بالتأمينات لتحصل على رقم مطابق تماماً.</div>
+</section><section class="block">
+  <h2>لماذا يهمّك هذا الاستقطاع؟</h2>
+
+  <p>كثيرون ينظرون إلى استقطاع التأمينات على أنه خصم من الراتب، والأدق أنه <strong>ادخار إجباري
+  مؤجّل</strong>: هو ما يموّل معاشك التقاعدي لاحقاً، ويغطيك عند العجز، ويؤمّن أسرتك في حال الوفاة.</p>
+  <ul>
+    <li><strong>مدة الاشتراك هي رأس مالك:</strong> كل شهر اشتراك يرفع معاشك المستقبلي — راجع
+    <a href="/tools/retirement-civil">حاسبة التقاعد المدني</a> لترى الأثر بالأرقام.</li>
+    <li><strong>انقطاع الاشتراك يضرّك:</strong> فترات العمل دون تسجيل لا تُحتسب في المعاش إطلاقاً.</li>
+    <li><strong>تأكد من صحة أجرك المسجّل:</strong> إن كان الأجر المسجّل لدى التأمينات أقل من الحقيقي
+    فسينخفض معاشك بالنسبة نفسها. تحقق من ذلك في حسابك الشخصي.</li>
+  </ul>
+</section>
+<section class="block" id="faq">
+  <h2><span aria-hidden="true">❓</span> الأسئلة الشائعة</h2>
+  <details class="faq"><summary>كم نسبة استقطاع التأمينات من الراتب؟</summary><div class="faq-a"><p>تُحسب على الأجر الخاضع للاشتراك (الأساسي + بدل السكن) وتتكوّن من حصة فرع المعاشات وحصة ساند. النسب قابلة للتعديل في الحاسبة أعلاه لأنها تختلف بحسب تاريخ التحاقك بسوق العمل بعد التعديلات النظامية الأخيرة.</p></div></details><details class="faq"><summary>هل يُخصم من راتب غير السعودي تأمينات؟</summary><div class="faq-a"><p>لا. غير السعوديين مسجّلون في فرع الأخطار المهنية فقط، وهو على صاحب العمل وحده، فلا يظهر استقطاع في رواتبهم.</p></div></details><details class="faq"><summary>ما هو الأجر الخاضع للاشتراك؟</summary><div class="faq-a"><p>الراتب الأساسي مضافاً إليه بدل السكن، ولا تدخل فيه عادةً البدلات المتغيرة والعمولات وبدل العمل الإضافي. ويخضع لحد أدنى وحد أقصى شهري.</p></div></details><details class="faq"><summary>ما هو ساند؟</summary><div class="faq-a"><p>نظام التأمين ضد التعطل عن العمل، يتشارك الموظف وصاحب العمل في اشتراكه، ويصرف تعويضاً شهرياً مؤقتاً للمشترك السعودي الذي يفقد وظيفته لأسباب خارجة عن إرادته.</p></div></details><details class="faq"><summary>هل أستطيع استرداد اشتراكاتي إذا تركت العمل؟</summary><div class="faq-a"><p>لا تُسترد الاشتراكات كمبلغ نقدي بشكل عام، لأنها تموّل معاشك المستقبلي. ومن لم يكمل المدة المؤهلة للمعاش قد تُصرف له مكافأة بدل المعاش وفق شروط محددة.</p></div></details><details class="faq"><summary>لماذا نسب الحاسبة قابلة للتعديل؟</summary><div class="faq-a"><p>لأن نسب الاشتراك خضعت لتعديلات تدريجية تختلف بحسب تاريخ الالتحاق بسوق العمل. اجعل النسبة مطابقة لما هو ظاهر في مسيّر راتبك لتحصل على نتيجة دقيقة.</p></div></details>
+</section>
+<section class="block">
+  <h2><span aria-hidden="true">🔗</span> أدوات ذات صلة</h2>
+  <div class="related"><a href="/tools/retirement-civil"><span aria-hidden="true">🏛️</span> التقاعد المدني</a><a href="/tools/retirement-military"><span aria-hidden="true">⭐</span> التقاعد العسكري</a><a href="/tools/service"><span aria-hidden="true">💼</span> مكافأة نهاية الخدمة</a><a href="/tools/salary"><span aria-hidden="true">💰</span> كم باقي على الراتب</a><a href="/tools/vacation"><span aria-hidden="true">🏖️</span> حاسبة الإجازات</a><a href="/tools/vat"><span aria-hidden="true">🧾</span> حاسبة الضريبة</a></div>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-about">
+      <div class="logo"><span class="logo-mark" aria-hidden="true">م</span>
+      <span class="logo-text">مُرتَّب</span></div>
+      <p>أدوات وحاسبات مجانية بالعربية تعمل مباشرة في المتصفح — بدون تسجيل، وبدون إرسال أي بيانات إلى خادم.
+      التواريخ الهجرية محسوبة وفق تقويم أم القرى الرسمي.</p>
+    </div>
+    <nav class="foot-col" aria-label="التصنيفات">
+      <p class="foot-title">التصنيفات</p>
+      <a href="/category/date">تاريخ وعدادات</a><a href="/category/islamic">إسلامية</a><a href="/category/health">صحية</a><a href="/category/finance">مالية وعمل</a><a href="/category/national">وطنية</a><a href="/category/fun">ترفيهية</a>
+    </nav>
+    <nav class="foot-col" aria-label="الأدوات الشائعة">
+      <p class="foot-title">الأكثر استخداماً</p>
+      <a href="/tools/today">تاريخ اليوم</a>
+      <a href="/tools/hijri">تحويل التاريخ</a>
+      <a href="/tools/age">حاسبة العمر</a>
+      <a href="/tools/salary">كم باقي على الراتب</a>
+      <a href="/tools/prayers">مواقيت الصلاة</a>
+    </nav>
+    <nav class="foot-col" aria-label="روابط الموقع">
+      <p class="foot-title">الموقع</p>
+      <a href="/about">من نحن</a>
+      <a href="/blog">المقالات</a>
+      <a href="/contact">اتصل بنا</a>
+      <a href="/privacy">سياسة الخصوصية</a>
+      <a href="/terms">الشروط والأحكام</a>
+    </nav>
+  </div>
+  <div class="wrap foot-base">
+    <p>© 2026 مُرتَّب — جميع الحقوق محفوظة.</p>
+    <p class="foot-note">النتائج إرشادية للاستخدام الشخصي ولا تُغني عن الجهات الرسمية أو المختصين.</p>
+  </div>
+</footer>
+</body>
+</html>
