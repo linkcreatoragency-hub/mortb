@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# ملفات لا حاجة لأرشفتها
+Disallow: /assets/
+
+Sitemap: https://mortb.online/sitemap.xml
